@@ -30,8 +30,8 @@ Universidade do Algarve (Ualg), no primeiro semestre do ano letivo de
 conceitos de Programação Orientada a Objetos (POO) em
 Java e com os algoritmos de ordenação.
 Uma vez que a ideia do trabalho era que a entrada de
-dados no programa fosse feita por meio da leitura de fi-
-cheiros eu optei por utilizar ficheiros binários, uma vez
+dados no programa fosse feita por meio da leitura de ficheiros 
+eu optei por utilizar ficheiros binários, uma vez
 que para a leitura dos mesmos não se fazem necessárias
 as manipulações que caracteres que teriam de acontecer
 na leitura de um ficheiro de texto.
@@ -42,10 +42,10 @@ Durante a disciplina de Algoritmos e Estruturas de Dados
 foram estudados três algoritmos de ordenação que foram
 os seguintes: “Bubble Sort”, “Shell Sort” e “Quick Sort”.
 Para a realização do trabalho, e uma vez que no mesmo
-foi utilizado um vector de inteiros que não contém ne-
-nhuma característica intrínseca para ser respeitada além
-de seu valor numérico e por tanto a estabilidade da orde-
-nação não chega a ser algo crucial, devido a sua menor
+foi utilizado um vector de inteiros que não contém nenhuma 
+característica intrínseca para ser respeitada além
+de seu valor numérico e por tanto a estabilidade da ordenação 
+não chega a ser algo crucial, devido a sua menor
 complexidade.
 O Bubble Sort é um algoritmo que consiste na varredura
 do array sucessivas vezes e cada varredura a comparação
@@ -58,11 +58,11 @@ ocorrido, devido a quantidade de varreduras necessárias
 acaba por ser um algoritmo com alta complexidade (no
 pior caso: O(n2)).
 O Quick Sort funciona realizando a divisão de vector em
-dois subconjuntos com base em um pivot, escolhido arbi-
-trariamente, e a comparação do valor do elemento pivot
-com os elementos presentes no subconjunto, as compara-
-ções são repetidas de forma recursiva e utilizando os sub-
-conjuntos gerados até que todo o vector esteja ordenado.
+dois subconjuntos com base em um pivot, escolhido arbitrariamente, 
+e a comparação do valor do elemento pivot
+com os elementos presentes no subconjunto, as comparações 
+são repetidas de forma recursiva e utilizando os subconjuntos 
+gerados até que todo o vector esteja ordenado.
 Não é um algoritmo estável e dentre os três estudados
 contém a menor complexidade (no caso médio: O (n log2
 n)).
@@ -71,17 +71,17 @@ n)).
 
 Para assegurar a simplicidade e bom funcionamento do
 programa optei por utilizar apenas uma classe, uma vez
-que a opção de utilizar diversas classes, e para tal diver-
-sos ficheiros ou então ter de utilizar mecanismos de he-
-rança, parecia-me ser um excesso ante o escopo do pro-
-blema em questão. A classe em questão é composta de
+que a opção de utilizar diversas classes, e para tal diversos 
+ficheiros ou então ter de utilizar mecanismos de herança, 
+parecia-me ser um excesso ante o escopo do problema 
+em questão. A classe em questão é composta de
 um construtor que com base em uma string recebida via
 terminal, utilizando a classe nativa do Java “Scanner”
 para leitura do input, utiliza a String como path para um
 ficheiro, o qual subentende-se estar no mesmo diretório
 no qual o programa se encontra, após isto segue-se para o
-preenchimento de um array com os inteiros que se en-
-contram no ficheiro. Como o array em questão é uma
+preenchimento de um array com os inteiros que se encontram 
+no ficheiro. Como o array em questão é uma
 variável comum a todos os métodos da classe o mesmo é
 utilizado nos métodos/funções que manipulam dados. No
 programa existem cinco métodos que manipulam dados,
@@ -136,22 +136,21 @@ diretorio que contém o programa em um ficheiro denominado “teste.bin”.
 
 **4.2 Condições especiais**
 
-O programa não é útil para ficheiros que não sejam biná-
-rios preenchidos com inteiros, tipos de ficheiros diferentes 
+O programa não é útil para ficheiros que não sejam binários 
+preenchidos com inteiros, tipos de ficheiros diferentes 
 deste (texto, binários compostos por outros tipos de
 dados) irão resultar em resultados inesperados e erros.
 
 **5. CONCLUSÕES E TRABALHO FUTURO**
 
-Durante a realização deste trabalho cheguei pude com-
-preender melhor alguns conceitos básicos de POO e tam-
-bém de complexidade algorítmica.
+Durante a realização deste trabalho cheguei pude compreender 
+melhor alguns conceitos básicos de POO e também de complexidade algorítmica.
 Visualizo algumas alterações que podem ser feitas para
 melhorar o trabalho no futuro. A primeira delas seria
 otimizar o uso dos tratamentos de erro no programa para
 que seja possível restringir a entrada apenas a arquivos
 binários e avisar o utilizador caso o mesmo esteja a tentar
-utilizar um ficheiro que seja de outro tipo. Outra altera-
-ção possível seria definir novos métodos e até realizar
+utilizar um ficheiro que seja de outro tipo. Outra alteração 
+possível seria definir novos métodos e até realizar
 alterações no construtor com a finalidade de realizar tanto
 a leitura de arquivos binários quanto de texto.
