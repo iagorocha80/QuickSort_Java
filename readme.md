@@ -95,8 +95,8 @@ exibido, este ajuste foi necessário para que a aplicação do
 método “QuickSort(int esq, int dir)” fosse possível. O
 método “Ler()” realiza a leitura do ficheiro “sorted.bin” e
 exibe os inteiros contidos nele. 
-Para a aplicação do méto-
-do de ordenação QuickSort foi necessário a utilização de
+Para a aplicação do método 
+de ordenação QuickSort foi necessário a utilização de
 duas funções: “Particiona(int esq, int dir)” e “Quick-
 Sort(int esq, int dir)”, devido a natureza de formação de
 subconjuntos existente no algoritmo do QuickSort a fun-
@@ -131,15 +131,14 @@ O programa aceita os seguintes tipos de ficheiro:
 1. Binários, contendo inteiros com 4 *bytes* cada.
 
 Um exemplo pode ser encontrado no
-diretorio que contém o programa em um ficheiro deno-
-minado “teste.bin”.
+diretorio que contém o programa em um ficheiro denominado “teste.bin”.
 
 
 **4.2 Condições especiais**
 
 O programa não é útil para ficheiros que não sejam biná-
-rios preenchidos com inteiros, tipos de ficheiros diferen-
-tes deste (texto, binários compostos por outros tipos de
+rios preenchidos com inteiros, tipos de ficheiros diferentes 
+deste (texto, binários compostos por outros tipos de
 dados) irão resultar em resultados inesperados e erros.
 
 **5. CONCLUSÕES E TRABALHO FUTURO**
